@@ -9,16 +9,16 @@
     <style>
       .clock {
         position: absolute;
-        top: 18%;
+        top: 13%;
         left: 10%;
         font-family: Arial;
         -webkit-text-stroke: 1px black;
         text-shadow: 3px 5px black;
-        font-weight: 400;
+        font-weight: bold;
 
 
         color: white;
-        font-size: 70px;
+        font-size: 40px;
         
        
         
@@ -27,12 +27,13 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         animation-duration: 4s;
+        text-align:center;
 
       }
 
       @keyframes slide {
         0% {left: 10%}
-        50% {left: 45%}
+        50% {left: 35%}
         100% {left:10%}
       }
 
@@ -116,8 +117,8 @@
 
 
   
-          var time = h + ":" + m + ":" + s + " " + session + "\n"
-          var date = "\n" + (month+1) + "/" + day +"/" + year;
+          var time = "\n" + h + ":" + m + ":" + s + " " + session + "\n"
+          var date = "" + (month+1) + "/" + day +"/" + year;
          
 
           document.getElementById("MyClockDisplay").textContent = date
