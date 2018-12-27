@@ -1,0 +1,25 @@
+{
+  "name": "freetd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://richardquesada.githib.io/FreeTD",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richardquesada/FreeTD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/richardquesada/FreeTD/issues"
+  },
+  "homepage": "https://github.com/richardquesada/FreeTD#readme"
+}
