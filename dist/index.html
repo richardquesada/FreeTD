@@ -9,12 +9,12 @@
     <style>
       .clock {
         position: absolute;
-        top: 14.5%;
+        top: 13%;
         left: 12%;
         font-family: Arial;
         -webkit-text-stroke: 1px black;
-        text-shadow: 3px 3px black;
-        font-weight: 900;
+        text-shadow: 2px 2px black;
+        font-weight: 1100;
 
 
         color: white;
@@ -68,6 +68,7 @@
     
 
     <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title></title>
@@ -103,7 +104,7 @@
             session = "PM";
           }
   
-          h = h < 10 ? "0" + h : h;
+          
           m = m < 10 ? "0" + m : m;
           s = s < 10 ? "0" + s : s;
 
